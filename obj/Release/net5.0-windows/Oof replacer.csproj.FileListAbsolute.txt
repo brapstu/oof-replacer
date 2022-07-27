@@ -1,0 +1,24 @@
+C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\bin\Release\net5.0-windows\Oof replacer.exe
+C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\bin\Release\net5.0-windows\ouch.ogg
+C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\bin\Release\net5.0-windows\ouch.wav
+C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\bin\Release\net5.0-windows\Oof replacer.deps.json
+C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\bin\Release\net5.0-windows\Oof replacer.runtimeconfig.json
+C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\bin\Release\net5.0-windows\Oof replacer.runtimeconfig.dev.json
+C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\bin\Release\net5.0-windows\Oof replacer.dll
+C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\bin\Release\net5.0-windows\ref\Oof replacer.dll
+C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\bin\Release\net5.0-windows\Oof replacer.pdb
+C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\obj\Release\net5.0-windows\MainWindow.g.cs
+C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\obj\Release\net5.0-windows\App.g.cs
+C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\obj\Release\net5.0-windows\Oof replacer_Content.g.cs
+C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\obj\Release\net5.0-windows\Oof replacer_MarkupCompile.cache
+C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\obj\Release\net5.0-windows\Oof replacer_MarkupCompile.lref
+C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\obj\Release\net5.0-windows\MainWindow.baml
+C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\obj\Release\net5.0-windows\Oof replacer.g.resources
+C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\obj\Release\net5.0-windows\Oof replacer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\obj\Release\net5.0-windows\Oof replacer.AssemblyInfoInputs.cache
+C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\obj\Release\net5.0-windows\Oof replacer.AssemblyInfo.cs
+C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\obj\Release\net5.0-windows\Oof replacer.csproj.CoreCompileInputs.cache
+C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\obj\Release\net5.0-windows\Oof replacer.dll
+C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\obj\Release\net5.0-windows\ref\Oof replacer.dll
+C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\obj\Release\net5.0-windows\Oof replacer.pdb
+C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\obj\Release\net5.0-windows\Oof replacer.genruntimeconfig.cache
