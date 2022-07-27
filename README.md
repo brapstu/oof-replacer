@@ -3,4 +3,4 @@ replace the oof sound in roblox
 
 the program works by replacing the oof sound in every single installed version of roblox on your computer
 
-help by @karbis
+help by karbis
