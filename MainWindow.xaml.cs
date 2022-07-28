@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Windows;
 using System.IO;
+using System.Media;
+using System.Net.Http;
 
 namespace Oof_replacer
 {
@@ -14,24 +16,29 @@ namespace Oof_replacer
             InitializeComponent();
         }
 
-        static string userName = Environment.UserName;
-        readonly string MainDirectory = "C:/Users/" + userName + "/AppData/Local/Roblox/Versions";
+        static HttpClient htc = new HttpClient();
+        static string version;
+        static string lad = Environment.GetEnvironmentVariable("LocalAppData");
+        readonly string MainDirectory = @$"{lad}\Local\Roblox\Versions";
         private void replace_click(object sender, RoutedEventArgs e)
         {
-            string[] subdirs = Directory.GetDirectories(MainDirectory);
-            string highDir;
-            foreach (string subdir in Directory.GetDirectories(MainDirectory))
-            {
-                highDir = subdir + "/content/sounds";
-                if (Directory.Exists(highDir + "/ouch.ogg"))
-                {
-                    File.Delete(highDir + "/ouch.ogg");
-                    File.Copy("ouch.ogg", highDir, true);
-                }
+            try {
+                version = htc.GetStringAsync("http://setup.roblox.com/version").GetAwaiter().GetResult();
+            } catch (Exception ex) {
+                MessageBox.Show($"Could not download the current Roblox version code. Please make sure you are connected to the Internet.\nError: {ex.Message}", "Oops!", MessageBoxButton.OK, MessageBoxImage.Error);
+                System.Environment.Exit(1);
             }
-            Progress.Text = "Sound has been updated!";
-            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"ouch.wav");
-            player.Play();
+            string versionDir = $@"{MainDirectory}\{version}";
+            if (Directory.Exists(versionDir))
+            {
+                File.Delete($@"{versionDir}\content\sounds\ouch.ogg");
+                File.Copy("ouch.ogg", $@"{versionDir}\content\sounds\", true);
+                Progress.Text = "Sound has been updated!";
+                SoundPlayer player = new SoundPlayer(@"ouch.wav");
+                player.Play();
+            } else {
+                MessageBox.Show("Your Roblox version is out-of-date. No action has been taken.", "Uhh...", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+            }
         }
     }
 }
