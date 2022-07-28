@@ -1,7 +1,0 @@
-C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\bin\Release\net5.0-windows\publish\ouch.ogg
-C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\bin\Release\net5.0-windows\publish\ouch.wav
-C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\bin\Release\net5.0-windows\publish\Oof replacer.exe
-C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\bin\Release\net5.0-windows\publish\Oof replacer.dll
-C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\bin\Release\net5.0-windows\publish\Oof replacer.deps.json
-C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\bin\Release\net5.0-windows\publish\Oof replacer.runtimeconfig.json
-C:\Users\minec\OneDrive\Desktop\replacer\Oof replacer\Oof replacer\bin\Release\net5.0-windows\publish\Oof replacer.pdb
